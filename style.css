@@ -1,3 +1,41 @@
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Add-New-Card {
+    width: 45%; /* Adjust as needed */
+}
+
+#new-card {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f0f0f0;
@@ -7,9 +45,10 @@ body {
 }
 
 li img {
-    max-width: 20%;
+    max-width: 10%;
     height: auto;
     margin-bottom: 10px;
+
 }
 
 h1 {
@@ -17,6 +56,7 @@ h1 {
     color: rgb(229, 20, 20);
     text-align: center;
     padding: 1em 0;
+    margin: 0;
 }
 
 main {
@@ -33,9 +73,12 @@ ul {
 }
 
 li {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+@media (max-width: 600px) {
+
+}

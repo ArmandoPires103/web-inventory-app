@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,41 @@
     <link rel="stylesheet" href="./style.css">
     <script src="./scripts/main.js"></script>
 </head>
-<body>
-    <h1>Sports Cards Inventory</h1>
 
-    <ul>
-        <li>
+<body>
+    <header>
+        <h1>Sports Cards Inventory </h1>
+    </header>
+<main>
+        <section class="Add New Card">
+            <h2>Add New Card</h2>
+            <form id="new-card">
+
+                <label for="name">Card Name<span class="reguired">*</span>
+                <input id="name" name="name" type="text" required /></label>
+
+                <label for="sport-type">Sport<span class="reguired">*</span>
+                <input id="sport" name="sport" type="text" required /></label>
+
+                <label for="year">Year<span class="required">*</span></label>
+                <input id="year" name="year" type="number" required />
+
+                <label for="image url">Image url<span class="required">*</span></label>
+                <input id="image url" name="image url" type="text" required />
+
+                <label for="price">Price<span class="required">*</span></label>
+                <input id="price" name="price" type="text" required />
+
+                <button type="submit">Create Item</button>
+                <button type="button" onclick="resetForm()">Reset</button>
+            </form>
+        </section>
+    
+<section class="in cart">
+        <h2>All Items In Cart</h2>
+        
+        <ul>
+        <li class="single-item">
             <img src="./images/LJAMEs card.jpeg" alt="LeBron James Card">
             <br>
             <strong>Card Name:</strong> LeBron James Rookie Card
@@ -23,9 +54,13 @@
             <strong>Condition:</strong> Mint
             <br>
             <strong>Price:</strong> $500
+            <button>Remove Item</button>
         </li>
 
+
         <li>
+            <img src="./images/Tom brady img.jpeg" alt="Tom Brady Auto Card">
+            <br>
             <strong>Card Name:</strong> Tom Brady Autographed Card
             <br>
             <strong>Sport:</strong> Football
@@ -35,9 +70,12 @@
             <strong>Condition:</strong> Near Mint
             <br>
             <strong>Price:</strong> $300
+            <button>Remove Item</button>
         </li>
 
         <li>
+            <img src="./images/mike trout img.webp" alt="Mike Trout Rookie Card">
+            <br>
             <strong>Card Name:</strong> Mike Trout Rookie Card
             <br>
             <strong>Sport:</strong> Baseball
@@ -47,10 +85,13 @@
             <strong>Condition:</strong> Excellent
             <br>
             <strong>Price:</strong> $250
+            <button>Remove Item</button>
         </li>
 
         <li>
-            <strong>Card Name:</strong> Cristiano Ronaldo Trading Card
+            <img src="./images/CR7 auto img.jpeg" alt="CR7 Auto Card">
+            <br>
+            <strong>Card Name:</strong> Cristiano Ronaldo Auto Card
             <br>
             <strong>Sport:</strong> Soccer
             <br>
@@ -59,8 +100,11 @@
             <strong>Condition:</strong> Mint
             <br>
             <strong>Price:</strong> $400
+            <button>Remove Item</button>
         </li>
     </ul>
+</section>
+</main>
 
 </body>
 </html>
