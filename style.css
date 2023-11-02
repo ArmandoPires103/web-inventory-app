@@ -6,6 +6,12 @@ body {
     box-sizing: border-box;
 }
 
+li img {
+    max-width: 20%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
 h1 {
     background-color: #3498db;
     color: rgb(229, 20, 20);
