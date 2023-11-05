@@ -19,7 +19,7 @@ function createCard(name, sport, year, image, price, inStock) {
         <br>
         <strong>Year:</strong> ${year}
         <br>
-        <strong>Condition:</strong> (Add your condition logic here)
+        <strong>Condition:</strong> (New)
         <br>
         <strong>Price:</strong> $${price}
         <br>
