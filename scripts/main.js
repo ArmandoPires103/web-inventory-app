@@ -1,6 +1,6 @@
 const newCardForm = document.getElementById("new-card");
 newCardForm.addEventListener("submit", function (event) {
-    event.preventDefault(); // Prevent the default form submission behavior
+    event.preventDefault(); 
 
     // Get values from the form
     const name = document.getElementById("name").value;
