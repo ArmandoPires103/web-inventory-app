@@ -43,5 +43,6 @@ const allItems = document.querySelectorAll(".remove");
 allItems.forEach((button) => {
     button.addEventListener('click', (event) => {
         event.target.closest('.singleItem').remove();
+        subtractCount();
     });
 });

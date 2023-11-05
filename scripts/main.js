@@ -13,6 +13,9 @@ newCardForm.addEventListener("submit", function (event) {
     // Call the function to generate a new card
     generateCard(name, sport, year, image, price, inStock);
 
+    count++;
+    addCount(count);
+
     form.reset();
 });
 
