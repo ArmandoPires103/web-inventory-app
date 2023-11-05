@@ -1,3 +1,14 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+}
+
+
 main {
     display: flex;
     justify-content: space-between;
@@ -38,14 +49,14 @@ button:hover {
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
+    background-color: #154460;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 li img {
-    max-width: 10%;
+    max-width: 20%;
     height: auto;
     margin-bottom: 10px;
 
@@ -55,11 +66,14 @@ h1 {
     background-color: #3498db;
     color: rgb(229, 20, 20);
     text-align: center;
-    padding: 1em 0;
+    padding: 0px;
+    box-sizing: border-box;
     margin: 0;
+    font-size: 2.5rem;
 }
 
 main {
+    margin: 0px auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
