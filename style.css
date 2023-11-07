@@ -49,10 +49,11 @@ li p {
 }
 
 footer {
-    position: absolute;
+    position: sticky;
     bottom: 0;
-    font-size: 12px;
+    font-size: 15px;
     padding-left: 15px;
+    width: 100%;
 
 }
 
